@@ -1,11 +1,7 @@
-import 'package:cara_ou_coroa/ui/jogar_page.dart';
 import 'package:flutter/material.dart';
 
+import './appwidget.dart';
+
 void main() {
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: JogarPage(),
-    ),
-  );
+  runApp(const AppWidget());
 }
